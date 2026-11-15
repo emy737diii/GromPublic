@@ -1,0 +1,21 @@
+КАК ВЫЛОЖИТЬ (2 минуты)
+
+1. Положите в папку models файлы dog.glb и cat.glb.
+2. В config.js поменяйте название, телефон, часы, филиалы, цены.
+3. Перетащите всю папку grooming-site на app.netlify.com/drop.
+
+ЗАЯВКИ
+Заявки с сайта приходят в Netlify: Site → Forms → «zayavka» (с фото).
+Один раз на новом сайте: Forms → Enable form detection, затем перетащите папку ещё раз.
+Уведомления на почту: Site configuration → Notifications → Emails and webhooks → Form submission notifications.
+Бесплатно: 100 заявок и 10 МБ фото в месяц на сайт.
+
+КАБИНЕТ ВЛАДЕЛЬЦА (демо для показа клиенту)
+Адрес сайта + #/admin, логин owner, пароль Shy7-Qp4m-Lx9v.
+В демо кабинет видит заявки только с того же устройства. Настоящие заявки всех клиентов — в Netlify Forms.
+Когда салон согласится, ставится полная версия (grooming-salon.zip) с настоящим кабинетом и Telegram.
+
+ФОТО УСЛУГ
+В index.html найдите images.unsplash.com и замените ссылки на свои фото (например photos/kompleks.jpg).
+
+ВАЖНО: кошка под лицензией CC BY-NC (только некоммерчески). Для показа можно, для работающего сайта салона — замените или catEnabled: false.
